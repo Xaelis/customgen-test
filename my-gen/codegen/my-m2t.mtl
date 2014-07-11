@@ -17,7 +17,7 @@
 [/comment]
 [template public generate(c : Class)]
 [comment @main/]
-[file (m.name.concat('.java'), false, 'UTF-8')]
+[file (c.name.concat('.java'), false, 'UTF-8')]
 [c.gen()/]
 [/file]
 [/template]
